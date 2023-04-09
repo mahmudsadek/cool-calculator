@@ -1,0 +1,106 @@
+body{
+    background-color: #2f3e3f;
+    color: #DCD7C9;
+    font-family: system-ui;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    padding: 10px;
+    margin: 0;
+}
+div.container{
+    background-color: #3F4E4F;
+    box-shadow: 0px 5px 10px rgba(13, 15, 13, 0.671);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 600px;
+    margin-left: 600px;
+    border-radius: 1%;
+
+}
+.show{
+    background-color: #2C3639;
+    margin-right: 35px;
+    margin-left: 40px;
+    margin-top: 50px;
+    width: 500px;
+    height: 120px;
+    padding: 1%;
+    box-shadow: 0px 5px 10px rgba(13, 15, 13, 0.671);
+}
+.buttons{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-right: 50px;
+    margin-left: 50px;
+    width: 500px;
+    height: 500px;
+}
+.button {
+    align-items: center;
+    appearance: none;
+    margin-top: 10px;
+    background-color: #2a3c3d;
+    border-radius: 4px;
+    border-width: 0;
+    box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#101314 0 -3px 0 inset;
+    box-sizing: border-box;
+    color: #DCD7C9;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: "JetBrains Mono",monospace;
+    height: 80px;
+    width: 120px;
+    margin-right: 2px;
+    justify-content: center;
+    line-height: 1;
+    list-style: none;
+    overflow: hidden;
+    padding-left: 16px;
+    padding-right: 16px;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    transition: box-shadow .15s,transform .15s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    will-change: box-shadow,transform;
+    font-size: 18px;
+}
+
+.button:focus {
+    box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+}
+
+.button:hover {
+    box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+    transform: translateY(-2px);
+}
+
+.button-30:active {
+    box-shadow: #D6D6E7 0 3px 7px inset;
+    transform: translateY(2px);
+}
+
+.clear{
+    background-color: rgb(116, 4, 4);
+    box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#300505 0 -3px 0 inset;
+}
+.delete{
+    background-color: rgb(23, 23, 165);
+    box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#031046 0 -3px 0 inset;
+}
+.math{
+    background-color: rgb(180, 148, 2);
+    box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,rgb(31, 25, 0) 0 -3px 0 inset;
+    color: rgba(1, 12, 3, 0.849);
+}
+.equal{
+    background-color: rgb(3, 100, 3);
+    box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,rgb(2, 29, 2) 0 -3px 0 inset;
+    width: 246px;
+}
