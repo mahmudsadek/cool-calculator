@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Simple Cool Calculator" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="calc.png">
     <link rel="stylesheet" href="style.css">
     <title>Cool Calculator</title>
 </head>
@@ -11,33 +13,33 @@
     <div class="container">
         <div class="show">
             <div class="operations">
-                <p>10 * 20 + 50</p>
+                <p id="numbers"></p>
             </div>
             <div class="result">
-                <h1>250</h1>
+                <h1 id="result"></h1>
             </div>
         </div>
 
-        <div class="buttons">
-            <button class="clear button"><h2>Clear</h2></button>
-            <button class="delete button"><h2>Delete</h2></button>
-            <button class="mudils button math"><h2>%</h2></button>
-            <button class="divi button math"><h2>/</h2></button>
-            <button class="nine button"><h2>9</h2></button>
-            <button class="eight button"><h2>8</h2></button>
-            <button class="seven button"><h2>7</h2></button>
-            <button class="malti button math"><h2>x</h2></button>
-            <button class="four button"><h2>4</h2></button>
-            <button class="five button"><h2>5</h2></button>
-            <button class="six button"><h2>6</h2></button>
-            <button class="minus button math"><h2>-</h2></button>
-            <button id="one" value = "1" class="one button"><h2>1</h2></button>
-            <button id="two" value="2" class="two button"><h2>2</h2></button>
-            <button class="three button"><h2>3</h2></button>
-            <button class="plus button math"><h2>+</h2></button>
-            <button class="zero button"><h2>0</h2></button>
-            <button class="dote button"><h2>.</h2></button>
-            <button class="equal button"><h2> = </h2></button>
+        <div value="b" class="buttons" id="btns">
+            <button class="clear button" value="clear">Clear</button>
+            <button class="delete button" value="delete">Delete</button>
+            <button class="mudils button math" value="%">%</button>
+            <button class="divi button math" value="/">/</button>
+            <button class="nine button" value="9">9</button>
+            <button class="eight button" value="8">8</button>
+            <button class="seven button" value="7">7</button>
+            <button class="malti button math" value="*">x</button>
+            <button class="four button" value="4">4</button>
+            <button class="five button" value="5">5</button>
+            <button class="six button" value="6">6</button>
+            <button class="minus button math" value="-">-</button>
+            <button id="one" value = "1" class="one button">1</button>
+            <button id="two" value="2" class="two button">2</button>
+            <button class="three button" value="3">3</button>
+            <button class="plus button math" value="+">+</button>
+            <button class="zero button" value="0">0</button>
+            <button class="dote button" value=".">.</button>
+            <button class="equal button" value="equal"> = </button>
         </div>
     </div>
     <script src="main.js"></script>
