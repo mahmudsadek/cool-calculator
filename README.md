@@ -1,2 +1,2 @@
-# cool-calculator
-Calculator app using HTML, CSS  and JAVASCRIPT
+# Cool Calculator
+## Simple Calculator app using HTML, CSS  and JAVASCRIPT
